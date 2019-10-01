@@ -1,0 +1,42 @@
+<div class="container-fluid">
+    <br> <br> 
+    <div class="row">
+      <div class="col-md-5">
+          <form (keyup)="findProfile()" #userForm="ngForm">
+              <div class="form-group">
+                <input type="text" class="form-control" name="userName" placeholder="Search" [(ngModel)]="userName">
+              </div>
+          </form>
+      </div>
+    
+
+    <div class=" text-center" id="Properties" ng-style="myStyle"><br>
+      <div class="card-body" >
+        <div class=" " id="Gitphoto" *ngIf="user">
+         <img src='{{user.avatar_url}}' alt='Profile-Picture of Git-User' width="200">
+        </div>
+
+        <div class="card-columns text-center" id="Properties1" ng-style="myStyle">
+         
+        <br>  <div class="card bg-info text-center">
+              <div appAppDirective> Name:<a href='{{user.html_url}}' target='_blank'>{{user.login | lastName}}</a> </div>
+            </div>
+            
+            <div class="card bg-danger text-center">
+                Repositories:{{user.public_repos}}
+            </div>
+            <div class="card bg-warning text-center">
+                Followers: {{user.followers}}
+              </div>
+              <div class="card bg-primary text-white text-center ">
+                  Following: {{user.following}}
+              </div>
+              
+    
+        </div>
+        </div>
+    </div>
+        
+ 
+ </div>
+</div>
