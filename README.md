@@ -4,10 +4,13 @@
 # By DENNIS KAROBIA on August 19th, 2018
 
 # Description
-This is a project that tests on Services, Dependency Injection, HTTP Services and APIs while using AngularJS. The website replicates the Github API that allows users to search for basic profile information about a github user.
 
-# Preview
-Click here (https://karobia001.github.io/Github-Search/) to view the live site.
+This is a project that tests on Services, Dependency Injection, HTTP Services and APIs while using AngularJS. The website replicates the Github API that allows users to search for basic profile information about a github user.
+##BDD
+| input | result |
+|-----------------|--------------|
+| Input your github name in the search bar | it will show you your account |
+| click into your account name |it will take you to your git hub page|
 
 # Known Bugs
 No bugs so far. If found, email me at karobiamaina81@gmail.com
