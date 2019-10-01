@@ -6,7 +6,7 @@
 # Description
 
 This is a project that tests on Services, Dependency Injection, HTTP Services and APIs while using AngularJS. The website replicates the Github API that allows users to search for basic profile information about a github user.
-##BDD
+## BDD
 | input | result |
 |-----------------|--------------|
 | Input your github name in the search bar | it will show you your account |
