@@ -37,6 +37,19 @@
         </div>
     </div>
         
- 
+  <div  id="RepoSection" ng-style="myStyle">
+      <h3 ng-style="myStyle" id="repo">Repositories By User</h3>
+    <div class="card-columns" *ngIf="profileService">  
+      
+      <div *ngFor='let repository of profileService.otherRepo'>
+      <div class="card bg-info text-black">
+        <div class="card-body">
+          <a href= '{{repository.html_url}}' target:_blank></a>{{repository.name}} <br> Description :{{repository.description}}
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
  </div>
 </div>
