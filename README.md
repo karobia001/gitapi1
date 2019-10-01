@@ -10,7 +10,7 @@ This is a project that tests on Services, Dependency Injection, HTTP Services an
 | input | result |
 |-----------------|--------------|
 | Input your github name in the search bar | it will show you your account |
-| click into your account name |it will take you to your git hub page|
+| click into your account name |  it will take you to your git hub page |
 
 # Known Bugs
 No bugs so far. If found, email me at karobiamaina81@gmail.com
